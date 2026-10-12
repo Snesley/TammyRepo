@@ -1,0 +1,180 @@
+{
+  "projects": [
+    {
+      "title": "The Rested Soul",
+      "subtitle": "Tessa Afshar",
+      "category": "Book publishing",
+      "image": "/assets/uploads/rested-soul.jpg",
+      "alt": "The Rested Soul — Book layout · Print production",
+      "shape": "book"
+    },
+    {
+      "title": "Incomparable",
+      "subtitle": "Nancy DeMoss Wolgemuth",
+      "category": "Book publishing",
+      "image": "/assets/uploads/incomparable.jpg",
+      "alt": "Incomparable — Jacket production · Foil separation",
+      "shape": "tall"
+    },
+    {
+      "title": "Twelve Classic Christmas Stories",
+      "subtitle": "Timothy Larsen",
+      "category": "Book publishing",
+      "image": "/assets/uploads/christmas-stories.jpg",
+      "alt": "Twelve Classic Christmas Stories — Cover production · Specialty finishes",
+      "shape": "tall"
+    },
+    {
+      "title": "Little Christmas Carol",
+      "subtitle": "Charles Dickens · Illustrated by Joe Sutphin",
+      "category": "Book publishing",
+      "image": "/assets/uploads/christmas-carol.jpg",
+      "alt": "Little Christmas Carol — Illustrated publishing · Print production",
+      "shape": "tall"
+    },
+    {
+      "title": "Loneliness",
+      "subtitle": "Steve DeWitt",
+      "category": "Book publishing",
+      "image": "/assets/uploads/loneliness.jpg",
+      "alt": "Loneliness — Book layout · Cover production",
+      "shape": "book"
+    },
+    {
+      "title": "The Ryrie Study Bible",
+      "subtitle": "NASB edition",
+      "category": "Book publishing",
+      "image": "/assets/uploads/ryrie-bible.jpg",
+      "alt": "The Ryrie Study Bible — Publishing production · Cover finishes",
+      "shape": "book"
+    },
+    {
+      "title": "Cosmetic surgery brochure",
+      "subtitle": "University of Cincinnati",
+      "category": "Print design",
+      "image": "/assets/uploads/page-32.jpg",
+      "alt": "Cosmetic surgery brochure — Brochure design · Page layout",
+      "shape": "standard"
+    },
+    {
+      "title": "Pain management brochure",
+      "subtitle": "University of Cincinnati Physicians",
+      "category": "Print design",
+      "image": "/assets/uploads/page-49.jpg",
+      "alt": "Pain management brochure — Brochure design · Print production",
+      "shape": "standard"
+    },
+    {
+      "title": "UC Surgeons welcome mailer",
+      "subtitle": "University of Cincinnati Surgeons",
+      "category": "Print design",
+      "image": "/assets/uploads/page-43.jpg",
+      "alt": "UC Surgeons welcome mailer — Direct mail · Layout",
+      "shape": "standard"
+    },
+    {
+      "title": "Institute for Military Medicine",
+      "subtitle": "Editorial & publication design",
+      "category": "Print design",
+      "image": "/assets/uploads/page-45.jpg",
+      "alt": "Institute for Military Medicine — Editorial layout · Print production",
+      "shape": "standard"
+    },
+    {
+      "title": "Blessed Redeemer",
+      "subtitle": "Album artwork & CD packaging",
+      "category": "Print design",
+      "image": "/assets/uploads/page-33.jpg",
+      "alt": "Blessed Redeemer — Packaging · Print design",
+      "shape": "standard"
+    },
+    {
+      "title": "Endless Praise",
+      "subtitle": "Album artwork & CD packaging",
+      "category": "Print design",
+      "image": "/assets/uploads/page-36.jpg",
+      "alt": "Endless Praise — Packaging · Print design",
+      "shape": "standard"
+    },
+    {
+      "title": "God Is Here!",
+      "subtitle": "Friendship Baptist Church Choir",
+      "category": "Print design",
+      "image": "/assets/uploads/page-37.jpg",
+      "alt": "God Is Here! — Packaging · Typography",
+      "shape": "standard"
+    },
+    {
+      "title": "Insights magazine",
+      "subtitle": "Friendship Baptist Church",
+      "category": "Print design",
+      "image": "/assets/uploads/page-58.jpg",
+      "alt": "Insights magazine — Magazine cover · Print design",
+      "shape": "standard"
+    },
+    {
+      "title": "Landmark",
+      "subtitle": "2014 sports program",
+      "category": "Print design",
+      "image": "/assets/uploads/page-57.jpg",
+      "alt": "Landmark — Program cover · Print design",
+      "shape": "standard"
+    },
+    {
+      "title": "Whirl direct mail",
+      "subtitle": "Food product marketing",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-59.jpg",
+      "alt": "Whirl direct mail — Direct mail · Marketing design",
+      "shape": "standard"
+    },
+    {
+      "title": "Mix and Mingle",
+      "subtitle": "Holiday party invitation",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-38.jpg",
+      "alt": "Mix and Mingle — Invitation design · Typography",
+      "shape": "standard"
+    },
+    {
+      "title": "Holiday Celebration",
+      "subtitle": "Event invitations",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-39.jpg",
+      "alt": "Holiday Celebration — Invitation design · Typography",
+      "shape": "standard"
+    },
+    {
+      "title": "Reception & dinner invitations",
+      "subtitle": "Custom event stationery",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-41.jpg",
+      "alt": "Reception & dinner invitations — Invitation design · Typography",
+      "shape": "standard"
+    },
+    {
+      "title": "A Culture of Collaboration",
+      "subtitle": "MACUL conference program",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-55.jpg",
+      "alt": "A Culture of Collaboration — Conference marketing · Publication design",
+      "shape": "standard"
+    },
+    {
+      "title": "Together: A Food Safe America",
+      "subtitle": "Conference registration brochure",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-56.jpg",
+      "alt": "Together: A Food Safe America — Conference marketing · Brochure design",
+      "shape": "standard"
+    },
+    {
+      "title": "SeaQuest",
+      "subtitle": "Vacation Bible School flyer",
+      "category": "Event & marketing",
+      "image": "/assets/uploads/page-60.jpg",
+      "alt": "SeaQuest — Event flyer · Illustration layout",
+      "shape": "standard"
+    }
+  ]
+}

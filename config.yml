@@ -1,0 +1,91 @@
+# Decap CMS settings. Edit the two lines marked CHANGE ME, then commit.
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME   # CHANGE ME  e.g. tammyadelhardt/portfolio
+  branch: main
+  base_url: https://YOUR-SITE.pages.dev        # CHANGE ME  your live site address (no trailing slash)
+  auth_endpoint: api/auth
+
+site_url: https://YOUR-SITE.pages.dev          # CHANGE ME (same address)
+display_url: https://YOUR-SITE.pages.dev       # CHANGE ME (same address)
+
+publish_mode: simple
+media_folder: public/assets/uploads
+public_folder: /assets/uploads
+locale: en
+
+collections:
+  - name: portfolio
+    label: Portfolio
+    files:
+      - name: projects
+        label: Projects (add, reorder, edit, delete)
+        file: content/projects.json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            label_singular: project
+            summary: "{{fields.title}} · {{fields.category}}"
+            hint: "Drag to reorder. The first project appears first on the site."
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle (client, author, or short description), name: subtitle, widget: string, required: false }
+              - label: Category
+                name: category
+                widget: select
+                options: ["Book publishing", "Print design", "Event & marketing"]
+                hint: "Decides which filter button the project appears under."
+              - label: Image
+                name: image
+                widget: image
+                hint: "JPG or PNG, about 1600 px on the long side keeps the site fast."
+              - label: Image description (for screen readers and search)
+                name: alt
+                widget: string
+                required: false
+                hint: "Example: Insights magazine — Magazine cover · Print design"
+              - label: Image shape
+                name: shape
+                widget: select
+                default: standard
+                options:
+                  - { label: "Standard (flat artwork, brochures, invitations)", value: standard }
+                  - { label: "Book photo", value: book }
+                  - { label: "Tall book photo", value: tall }
+
+  - name: pages
+    label: Site text
+    files:
+      - name: site
+        label: Page text, contact info & settings
+        file: content/site.json
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Location, name: location, widget: string }
+          - { label: "Headline under name (one line per row)", name: role, widget: text }
+          - { label: "Intro sentence (one line per row)", name: intro, widget: text }
+          - { label: Skills strip, name: disciplines, widget: list, field: { label: Skill, name: skill, widget: string } }
+          - { label: Software label, name: software_label, widget: string, hint: "Shown before the software names, e.g. Adobe Creative Cloud" }
+          - { label: Software, name: software, widget: list, field: { label: App, name: app, widget: string } }
+          - { label: "About: small heading", name: about_kicker, widget: string }
+          - { label: "About: big heading", name: about_heading, widget: text }
+          - { label: "About: paragraphs", name: about_paragraphs, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+          - { label: "About: capability tags", name: capabilities, widget: list, field: { label: Tag, name: tag, widget: string } }
+          - { label: "Contact: small heading", name: contact_kicker, widget: string }
+          - { label: "Contact: big heading", name: contact_heading, widget: text }
+          - { label: "Contact: note", name: contact_note, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Phone, name: phone, widget: string }
+          - label: "Full portfolio PDF (optional)"
+            name: portfolio_pdf
+            widget: file
+            required: false
+            hint: "Upload a PDF to show the 'Download full portfolio' link. Leave empty to hide it."
+          - { label: Footer (left), name: footer_left, widget: string }
+          - { label: Footer (right), name: footer_right, widget: string }
+          - { label: "Search result title", name: seo_title, widget: string }
+          - { label: "Search result description", name: seo_description, widget: text }
+          - { label: "Link preview title", name: share_title, widget: string }
+          - { label: "Link preview description", name: share_description, widget: text }
+          - { label: "Link preview image (full web address)", name: share_image, widget: string }
